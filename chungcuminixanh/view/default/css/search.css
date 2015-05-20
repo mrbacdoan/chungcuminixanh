@@ -1,0 +1,49 @@
+/* CSS Document */
+.main_room{
+	width:100%;
+	min-height:300px;
+	display:inline-block;
+	float:left;
+}
+.item_room{
+	width:100%;
+	height:120px;
+	border-bottom:#CCC solid 1px;
+	float:left;
+}
+.item_room img{
+	width:123px;
+	height:93px;
+	float:left;
+	margin-top:12px;
+	border-radius:5px;
+}
+.nd_item_room{
+	width:540px;
+	height:93px;
+	float:right;
+	margin-top:12px;
+	
+}
+p.item_room_title a{
+	font-size:14px;
+	font-weight:bold;
+	color:#008c44;
+	text-decoration:none;
+}
+.nd_item_room span{
+	font-weight:bold;
+	
+}
+.nd_item_room a p.room_view{
+		margin:10px 5px 0 10px;
+		padding-right:15px;
+		color:#666;
+		font-weight:bold;
+		float:right;
+		background-image:url(../images/pathway-active-arrow.png);
+		background-position:right;
+		background-repeat:no-repeat;
+		font-weight:bold;
+		color:#008c44;
+}
